@@ -97,7 +97,6 @@ This repo includes:
 
 ---
 
-## 🚀 Future Plans
 
 ## 📜 License
 
