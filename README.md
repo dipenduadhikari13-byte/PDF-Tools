@@ -1,4 +1,4 @@
-# 📄 PDF Tools — Fast, Local, No-Nonsense
+# 📄 PDF Tools — Fast, Local, No-Installation
 
 A lightweight, high-performance PDF utility suite built with Streamlit.
 
@@ -31,7 +31,6 @@ No uploads to external servers. No unnecessary bloat. Just fast, practical tools
   * custom ranges
   * fixed page intervals
   * equal parts
-* Lossless processing (no quality loss)
 
 ---
 
@@ -98,33 +97,7 @@ This repo includes:
 
 ---
 
-## ⚠️ Notes
-
-* Ghostscript greatly improves compression quality
-* Large PDFs (>100MB) may hit memory limits on cloud
-* Fallback mode ensures functionality without Ghostscript
-
----
-
-## 🧩 Architecture
-
-```text
-app.py
-pages/
- ├── pdf_resizer.py
- ├── pdf_splitter.py
-```
-
----
-
 ## 🚀 Future Plans
-
-* Batch processing
-* CLI version
-* Drag & drop multi-file support
-* Advanced optimization profiles
-
----
 
 ## 📜 License
 
